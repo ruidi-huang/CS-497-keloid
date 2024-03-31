@@ -5,9 +5,8 @@ import ImageUploader from './ImageUploader'; // Import your component
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+        <h1>Keloid Detector</h1>
         <ImageUploader />
-      </header>
     </div>
   );
 }

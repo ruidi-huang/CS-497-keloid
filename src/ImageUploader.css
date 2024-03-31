@@ -1,0 +1,60 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow-y: scroll; /* Ensure that vertical scroll is always on */
+}
+
+.keloid-detector-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    width: 100%;
+    margin: 20px auto;
+    height: 100%;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+input[type="file"],
+button {
+  font-family: inherit;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  background-color: #e3f2fd; 
+  color: #212529; 
+  margin-top: 20px; 
+}
+
+button {
+  background-color: #0d6efd; 
+  color: white;
+  margin-top: 20px;
+  font-weight: 600; 
+}
+
+button:hover {
+  background-color: #0b5ed7; 
+}
+
+canvas {
+  border: 1px solid #ced4da;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 0 auto; 
+  width: 700px;
+}
+
+.coordinates-display {
+  font-size: 0.9rem;
+  color: #212529;
+  background-color: #e9ecef; 
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px; 
+  display: inline-block;
+}
